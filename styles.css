@@ -2,14 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.question {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 .emoji {
     font-size: 2rem;
     padding: 0.5rem;
     cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.25rem;
 }
 
 .emoji:hover {
     opacity: 0.8;
+    background-color: #f0f0f0;
+}
+
+.thank-you-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
 }
