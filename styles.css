@@ -1,0 +1,15 @@
+.emoji-sentiment-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.emoji:hover {
+    opacity: 0.8;
+}
